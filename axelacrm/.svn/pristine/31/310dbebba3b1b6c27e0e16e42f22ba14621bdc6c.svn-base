@@ -1,0 +1,65 @@
+
+ .m-portlet .m-portlet__head
+{
+	background-color: #e46fb4;
+}
+
+#m_form_1
+{
+	border: 1px solid #e46fb4;
+	margin-top: -1px;
+}
+
+.theme, .btn-row .btn, .dtp-buttons .btn:hover ,.dtp-buttons .btn, .col-md-2 .btn
+{
+	background-color: #d23176;
+	color: white;
+	border-color: #d23176;
+}
+
+
+.table thead tr
+{
+	background-color: #e46fb4;
+}
+
+form a, table a {
+    color: #787910;
+}
+
+.btn-row .btn:hover {
+    background-color: #d23176;
+}
+
+.dtp > .dtp-content > .dtp-date-view > header.dtp-header, .dtp table.dtp-picker-days tr > td > a.selected , .dtp div.dtp-date, .dtp-select-hour, .dtp div.dtp-time
+{
+    background: #e46fb4;
+}
+
+/*.m-header-menu.m-header-menu--skin-light .m-menu__nav > .m-menu__item:hover > .m-menu__link .m-menu__link-text*/
+/*
+.m-header-menu.m-header-menu--skin-light .m-menu__nav > .m-menu__item > .m-menu__link .m-menu__link-text
+{
+	color: white;
+}
+
+.m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-nav__link-icon, .m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-nav__link-icon > i::before
+{
+	background: linear-gradient(180deg,#fff 25%,#fff 50%,#fff 75%,#fff 100%);
+    background-clip: border-box;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+*/
+
+.dtp-picker-days thead tr
+{
+	background-color: white;
+}
+
+.table > tbody > tr:hover
+{
+	background-color: #fedff1;
+}
