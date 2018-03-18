@@ -33,7 +33,7 @@ public class Controller_Accounting {
 		return map;
 	}
 
-	// Vouncher List
+	// Voucher List
 	@RequestMapping("/voucher-list")
 	public Map Customer(@RequestBody String input, HttpServletRequest request, HttpServletResponse response, HttpSession session) throws JSONException {
 		return voucherService.listData(input, session);
